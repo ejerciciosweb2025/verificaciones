@@ -239,8 +239,8 @@ function ganador(jugadasJuego){
             mjugador+=1;
         }
     }
-    console.log("Maquina" +mmaquina);
-    console.log("Jugador" +mjugador);
+    //console.log("Maquina" +mmaquina);
+    //console.log("Jugador" +mjugador);
 
     if(mjugador>mmaquina){
         resultado=1;
@@ -248,7 +248,7 @@ function ganador(jugadasJuego){
     else if (mjugador<mmaquina) {
         resultado=0;
     }
-    console.log(resultado);
+    //console.log(resultado);
 
     return resultado;
 
@@ -271,6 +271,6 @@ resultadoGanador = ganador(jugadasJuego);
 
 //ganador(jugadasJuego);
 
-console.log(resultadoGanador);
+//console.log(resultadoGanador);
 console.log(`El ganador del juego es ${nombreJugador[resultadoGanador]}`);
 
